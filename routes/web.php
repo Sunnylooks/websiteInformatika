@@ -18,6 +18,10 @@ Route::get('/mahasiswa', function () {
     return view('mahasiswa/mhs');
 });
 
+Route::get('/mahasiswa/news', function () {
+    return view('mahasiswa/news');
+});
+
 Route::get('/pendidikan', function () {
     return view('pendidikan/pendidikan');
 });
@@ -27,4 +31,8 @@ Route::get('/profil', function () {
 });
 Route::get('/riset', function () {
     return view('riset/riset');
+});
+
+Route::get('/berita', function () {
+    return view('berita/berita');
 });

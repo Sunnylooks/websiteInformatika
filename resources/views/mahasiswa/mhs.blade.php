@@ -5,6 +5,7 @@
           <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
           <li><a href="{{ url('/beranda') }}">Home</a></li>
           <li class="selected"><a href="{{ url('/mahasiswa') }}">Mahasiswa</a></li>
+          <li><a href="{{ url('/berita') }}">Berita</a></li>
           <li><a href="{{ url('/pendidikan') }}">Pendidikan</a></li>
           <li><a href="{{ url('/lainnya') }}">Lainnya</a></li>
           <li><a href="{{ url('/profil') }}">Profil</a></li>
@@ -22,5 +23,8 @@
         <p>This template is a fully functional 5 page website, with an <a href="examples.html">examples</a> page that gives examples of all the styles available with this design.</p>
         <h2>Browser Compatibility</h2>
         <p>This template has been tested in the following browsers:</p>
+
+        <p>BERITA TERKINI TERKAIT MAHASISWA</p>
+        <a href="{{ url('/mahasiswa/news') }}">NEWS</a></li>
       </div>
 @endsection

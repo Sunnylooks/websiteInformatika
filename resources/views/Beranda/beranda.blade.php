@@ -4,7 +4,8 @@
         <ul id="menu">
           <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
           <li class="selected"><a href="{{ url('/beranda') }}">Home</a></li>
-          <li><a href="{{ url('/mahasiswa') }}">Mahasiswa</a></li>
+                    <li><a href="{{ url('/mahasiswa') }}">Mahasiswa</a></li>
+          <li><a href="{{ url('/berita') }}">Berita</a></li>
           <li><a href="{{ url('/pendidikan') }}">Pendidikan</a></li>
           <li><a href="{{ url('/lainnya') }}">Lainnya</a></li>
           <li><a href="{{ url('/profil') }}">Profil</a></li>
@@ -15,7 +16,7 @@
 @section('content')
 <div id="content">
         <!-- insert the page content here -->
-        <h1>Welcome to the black &amp; white template</h1>
+        <h1>selamat datang di BERANDA</h1>
         <p>This standards compliant, simple, fixed width website template is released as an 'open source' design (under a <a href="http://creativecommons.org/licenses/by/3.0">Creative Commons Attribution 3.0 Licence</a>), which means that you are free to download and use it for anything you want (including modifying and amending it). All I ask is that you leave the 'design from HTML5webtemplates.co.uk' link in the footer of the template, but other than that...</p>
         <p>This template is written entirely in <strong>HTML5</strong> and <strong>CSS</strong>, and can be validated using the links in the footer.</p>
         <p>You can view more free HTML5 web templates <a href="http://www.html5webtemplates.co.uk">here</a>.</p>

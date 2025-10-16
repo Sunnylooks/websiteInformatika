@@ -4,7 +4,8 @@
         <ul id="menu">
           <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
           <li><a href="{{ url('/beranda') }}">Home</a></li>
-          <li><a href="{{ url('/mahasiswa') }}">Mahasiswa</a></li>
+                    <li><a href="{{ url('/mahasiswa') }}">Mahasiswa</a></li>
+          <li><a href="{{ url('/berita') }}">Berita</a></li>
           <li><a href="{{ url('/pendidikan') }}">Pendidikan</a></li>
           <li><a href="{{ url('/lainnya') }}">Lainnya</a></li>
           <li><a href="{{ url('/profil') }}">Profil</a></li>

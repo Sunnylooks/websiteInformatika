@@ -1,6 +1,6 @@
       <div class="sidebar">
         <!-- insert your sidebar items here -->
-        <h3><b>Latest News</b></h3>
+        <h3><b>Berita Terbaru</b></h3>
         <h4>Pelatihan Accurate Online: Sinergi Matana University dan SMK Media Informatika</h4>
         <h5>August 1, 2025</h5>
         <p>Tangerang, 31 Juli 2025 – Sebagai bentuk nyata komitmen dalam menjalin kerja sama pendidikan dan pengabdian kepada masyarakat, Program Studi Akuntansi Matana University mendelegasikan Hotma Glorya Ika Sari, S.Ak.,M.S.Ak. untuk memberikan pelatihan Accurate Online kepada siswa-siswi jurusan Akuntansi SMK Media Informatika.<br /><a href="{{ url('/berita') }}">Read more</a></p>

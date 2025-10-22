@@ -2,11 +2,11 @@
 <html>
 
 <head>
-  <title>black &amp; white</title>
-  <meta name="description" content="website description" />
-  <meta name="keywords" content="website keywords, website keywords" />
-  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
-  <link rel="stylesheet" type="text/css" href="{{ asset('style/style.css') }}" title="style" />
+  <title>Website Informatika - Matana University</title>
+  <meta name="description" content="Program Studi Informatika Matana University" />
+  <meta name="keywords" content="informatika, computer science, programming, IT, technology" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="{{ asset('style/style.css') }}" title="style"/>
 </head>
 
 

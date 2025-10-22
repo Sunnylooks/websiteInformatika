@@ -36,3 +36,7 @@ Route::get('/riset', function () {
 Route::get('/berita', function () {
     return view('berita/berita');
 });
+
+Route::get('/admin', function () {
+    return view('admin/mahasiswa/index');
+});

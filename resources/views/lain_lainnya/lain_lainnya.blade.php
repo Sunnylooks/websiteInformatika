@@ -16,10 +16,38 @@
 @section('content')
 <div id="content">
         <!-- insert the page content here -->
-        <h1><b>Welcome to the LAINNYA PAGE</b></h1>
-        <p>Disini adalah halaman lainnya</p>
-        <p>Halaman ini berisi informasi tambahan yang tidak termasuk dalam kategori utama situs.</p>
-        <p>Anda dapat menemukan berbagai konten menarik dan relevan yang melengkapi informasi yang ada di halaman lain.</p>
-        <p>Jelajahi halaman ini untuk mendapatkan wawasan lebih lanjut dan konten yang mungkin menarik bagi Anda.</p>
+        <h1><b>Informasi Tambahan Program Studi Informatika</b></h1>
+        
+        <h2>Layanan dan Fasilitas Pendukung</h2>
+        <p>Halaman ini berisi informasi tambahan yang mendukung kehidupan akademik dan non-akademik mahasiswa Program Studi Informatika.</p>
+
+        <h2>Fasilitas Kampus</h2>
+
+        <h3>Perpustakaan Digital</h3>
+        <ul>
+            <li><strong>Koleksi Digital:</strong> 50,000+ e-books dan jurnal internasional</li>
+            <li><strong>Database Akademik:</strong> IEEE Xplore, ACM Digital Library, SpringerLink</li>
+            <li><strong>Software Repository:</strong> Akses ke software development tools</li>
+            <li><strong>Learning Resources:</strong> Video tutorial dan online courses</li>
+            <li><strong>Jam Operasional:</strong> 24/7 online access</li>
+        </ul>
+
+        <h3>Fasilitas Olahraga dan Rekreasi</h3>
+        <ul>
+            <li>Lapangan futsal indoor</li>
+            <li>Gym dan fitness center</li>
+            <li>Lapangan basket outdoor</li>
+            <li>Area jogging track</li>
+            <li>Gaming lounge untuk e-sports</li>
+        </ul>
+
+        <h3>Kafeteria dan Food Court</h3>
+        <ul>
+            <li>5 outlet makanan dengan menu beragam</li>
+            <li>Coffee shop dengan WiFi kencang</li>
+            <li>Area study space dengan power outlet</li>
+            <li>Harga terjangkau untuk mahasiswa</li>
+        </ul>
+
       </div>
 @endsection

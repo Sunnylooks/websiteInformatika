@@ -44,23 +44,6 @@
         <h3>4. Mobile & Web Development</h3>
         <p>Pengembangan aplikasi mobile dan web yang user-friendly dengan menggunakan teknologi frontend dan backend terbaru.</p>
 
-        <h2>Fasilitas Unggulan</h2>
-        <ul>
-            <li><strong>Laboratorium Komputer Modern:</strong> Dilengkapi dengan hardware terbaru dan software berlisensi</li>
-            <li><strong>Innovation Lab:</strong> Ruang khusus untuk pengembangan proyek inovasi mahasiswa</li>
-            <li><strong>Server & Cloud Computing Lab:</strong> Fasilitas untuk pembelajaran teknologi cloud dan big data</li>
-            <li><strong>Maker Space:</strong> Area untuk prototyping dan pengembangan IoT</li>
-        </ul>
-
-        <h2>Prestasi Terbaru</h2>
-        <p>Program Studi Informatika telah meraih berbagai prestasi gemilang:</p>
-        <ul>
-            <li>Juara 1 Kompetisi Programming Nasional 2024</li>
-            <li>Best Innovation Award pada Hackathon Regional 2024</li>
-            <li>Akreditasi A dari BAN-PT</li>
-            <li>Kerjasama dengan 25+ perusahaan teknologi terkemuka</li>
-        </ul>
-
         <p><em>Bergabunglah dengan kami dan wujudkan impian menjadi profesional IT yang handal!</em></p>
         
       </div>

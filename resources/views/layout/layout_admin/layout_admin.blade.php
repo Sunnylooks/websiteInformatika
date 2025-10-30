@@ -45,9 +45,10 @@
       </symbol>
     </svg>
     <div
-      class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle"
+      class="dropdown position-fixed bottom-0 start-0 mb-3 ms-3 bd-mode-toggle"
     >
-      <button
+     
+    <button
         class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
         id="bd-theme"
         type="button"

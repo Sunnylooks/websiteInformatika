@@ -12,7 +12,8 @@ class PegawaiController extends Controller
     {
         //take db data pegawai
         //select * from pegawai
-        $pegawai = DB::table('pegawai')->get();
+        //$pegawai = DB::table('pegawai')->get();
+        $pegawai = DB::table('pegawai')->paginate(10);
 
         return view('admin.pegawai.pegawai',['pegawai' => $pegawai]);
     }
@@ -41,19 +42,40 @@ class PegawaiController extends Controller
 
     //update
     public function edit($id)
+    // select * from pegawai where id = $id
     {
-        $pegawai = Pegawai::findOrFail($id);
-        return view('admin.pegawai.edit', compact('pegawai'));
+        $pegawai = DB::table('pegawai')->where('pegawai_id', $id)->first();
+        //view --> form  
+        return view('admin.pegawai.edit', ['pegawai' => $pegawai]);
     }
 
     public function update(Request $request, $id)
     {
-        // Validasi dan update data pegawai
+        // Validasi sederhana
+        $request->validate([
+            'nama' => 'required|string|max:255',
+            'jabatan' => 'required|string|max:255',
+            'umur' => 'required|integer',
+            'alamat' => 'required|string|max:255',
+        ]);
+
+        // Update data
+        // sql: UPDATE pegawai SET pegawai_nama = 'nama', pegawai_jabatan = 'jabatan',
+        DB::table('pegawai')->where('pegawai_id', $id)->update([
+            'pegawai_nama' => $request->nama,
+            'pegawai_jabatan' => $request->jabatan,
+            'pegawai_umur' => $request->umur,
+            'pegawai_alamat' => $request->alamat,
+        ]);
+
+        return redirect('/pegawai')->with ('success', 'Data pegawai berhasil diperbarui.');
     }
 
     //delete
-    public function destroy($id)
+    public function hapus($id)
     {
         // Hapus data pegawai
+        DB::table('pegawai')->where('pegawai_id', $id)->delete();
+        return redirect('/pegawai')->with('success', 'Data pegawai berhasil dihapus.');
     }
 }
